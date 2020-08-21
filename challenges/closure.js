@@ -17,7 +17,7 @@ function myFunction() {
 myFunction();
 
 // Explanation: 
-
+// nestedFunction has acces to the variable internal because they are both within the same focus.  When we nest a fucntion within a function the nested function hass access to his parenting function
 
 /* Task 2: Counter */
 

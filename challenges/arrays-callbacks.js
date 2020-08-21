@@ -85,7 +85,7 @@ function multiply(num1, num2){
 }
 
 function greeting(first, last){
-  returns `Hello ${first} ${last}, nice to meet you!`
+  return `Hello ${first} ${last}, nice to meet you!`;
 }
 
 
@@ -102,4 +102,5 @@ function greeting(first, last){
 Stretch: If you haven't already, convert your array method callbacks into arrow functions.
 
 */
+
 
