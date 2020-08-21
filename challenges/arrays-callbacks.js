@@ -64,8 +64,8 @@ console.log(populationTotal);
   * The consume function should return the invocation of cb, passing a and b into cb as arguments
 */
 
-function consume(a, b ,callback){
- return callback(a,b);
+function consume(num1 , num2 ,callback){
+ return callback(num1 , num2);
 }
 
 
