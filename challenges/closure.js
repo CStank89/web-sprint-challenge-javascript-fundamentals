@@ -25,10 +25,12 @@ myFunction();
 
 
 function summation(num){
-  const counter = 0;
-  return num >= 1 ++ counter)
-
+  let sum = 0
+  for (let i = 1; i <= num; i++){
+    sum +=i;
+  }
+  return sum;
 }
 
 
-console.log(summation(10));
+console.log(summation(4));
