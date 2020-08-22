@@ -26,14 +26,22 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+        forEach calls a provided callback once for each element within an array, while .map takes a callback once for each element in an array and makes a new array with that infomation.
 
 2. Explain the difference between a callback and a higher order function.
+    A callback is whats put into a higher order function.  The callback is usually another function and is being used by another function by using a callback.
 
 3. What is closure?
+    Closure exists when an inner function makes use of variables declared in an outer function which has previously returned. Closure does not exist if you don not return an inner function and if that inner function does not make use of variablesreturned by an outer function. We cann use closure to create private variables and write better code that isolates our logic and application. 
 
 4. Describe the four rules of the 'this' keyword.
+        1. Window binding, if none of the other rules apply "this" defaults to the window.
+        2.Implict Binding - when the function is invoked, look the left of the dot that is what this refers to
+        3. Explicit Binding -
+
 
 5. Why do we need super() in an extended class?
+    Super() replaces object.create when we are extending a class.  When we use prototype we have to use object.create , but when we are using classes it gets replaced.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -41,12 +49,12 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: git push origin `<firstName-lastName>`
+- [ x ] Create a forked copy of this project
+- [ x ] Add your team lead as collaborator on Github
+- [ x ] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [ x ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [ x ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [ x ] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2: Project Requirements
 
@@ -57,22 +65,22 @@ Your finished project must include all of the following requirements:
 #### Task A: Objects and Arrays
 
 Test your knowledge of advanced array methods and callbacks.
-* [ ] Use the [arrays-callbacks.js](challenges/arrays-callbacks.js) link to get started.  Read the instructions carefully!
+* [ x ] Use the [arrays-callbacks.js](challenges/arrays-callbacks.js) link to get started.  Read the instructions carefully!
 
 #### Task B: Closure
 
 This challenge takes a look at closures as well as scope. 
-* [ ] Use the [closure.js](challenges/closure.js) link to get started. Read the instructions carefully!
+* [ x ] Use the [closure.js](challenges/closure.js) link to get started. Read the instructions carefully!
 
 #### Task C: Prototypes
 
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
+* [ x ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
 
 #### Task D: Classes
 
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+* [ x ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
@@ -84,8 +92,8 @@ There are a few stretch problems found throughout the files, don't work on them 
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete after receiving your pull-request
+- [ x ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [ x ] Add your team lead as a reviewer on the pull-request
+- [ x ] Your team lead will count the project as complete after receiving your pull-request
 
 
